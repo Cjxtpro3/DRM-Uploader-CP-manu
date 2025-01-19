@@ -1,5 +1,6 @@
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid 
 import requests
+import asyncio
 import m3u8
 import json
 import subprocess
@@ -290,5 +291,12 @@ async def account_login(bot: Client, m: Message):
                 
     except Exception as e:
         await m.reply_text(e)
-        
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+
+
+
+
 bot.run()
