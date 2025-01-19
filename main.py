@@ -34,7 +34,7 @@ photo = "photo.jpg"
 
 bot = Client("bot",    
    bot_token="",    
-   api_id= ,    
+   api_id= 28477603 ,    
    api_hash= ""
 )
 
