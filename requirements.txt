@@ -26,6 +26,7 @@ yt-dlp
 motor
 aiohttp
 aiofiles
+asyncio
 pytz
 umongo
 speedtest-cli
