@@ -293,7 +293,7 @@ async def account_login(bot: Client, m: Message):
         await m.reply_text(e)
 
 if __name__ == "__main__":
-    
+    asyncio.run(main())
 
 
 
